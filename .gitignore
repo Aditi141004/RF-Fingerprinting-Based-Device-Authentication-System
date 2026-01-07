@@ -1,0 +1,39 @@
+# ===============================
+# MATLAB / Simulink .gitignore
+# ===============================
+
+# Autosave files
+*.asv
+*.m~
+
+# Binary data files
+*.mat
+
+# MEX files
+*.mex*
+*.p
+
+# Simulink cache & codegen
+slprj/
+codegen/
+*.slxc
+
+# MATLAB Live Editor temp files
+*.mlx.autosave
+
+# MATLAB project files (optional)
+*.prj
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Backup files
+*~
